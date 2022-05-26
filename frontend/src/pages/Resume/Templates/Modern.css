@@ -1,0 +1,80 @@
+.modern {
+  display: flex;
+}
+
+.section-1 {
+  width: 30%;
+}
+.image-holder-modern {
+  /* margin: 15px; */
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.cv-img-modern {
+  width: 160px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ced4da;
+  border-radius: 50%;
+}
+
+.title-modern {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.skill-modern {
+  padding: 3px 4px;
+  background-color: #ced4da;
+  margin: 3px;
+  text-align: center;
+  font-size: 13px;
+  border-radius: 13px;
+}
+
+.contact-modern {
+  margin-left: 15px;
+}
+.contact-modern h6 {
+  font-size: 12px;
+}
+
+.text-modern {
+  width: 95%;
+}
+
+.modern-diplome {
+  margin-left: 20px;
+}
+
+.header-info-modern {
+  background-color: #ced4da;
+  margin: 15px;
+  margin-left: 20px;
+  padding: 10px;
+  padding-bottom: 6px;
+  border-radius: 13px;
+}
+
+.tongue-modern {
+  font-size: 14px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .modern {
+    flex-direction: column;
+  }
+  .section-1 {
+    width: 100%;
+  }
+  .image-holder-modern {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .contact-modern {
+    text-align: center;
+  }
+}

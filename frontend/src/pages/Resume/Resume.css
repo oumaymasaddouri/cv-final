@@ -1,0 +1,55 @@
+.radio {
+  font-size: 20px;
+  margin: 0 1rem;
+}
+
+.radio input {
+  margin-right: 5px;
+}
+
+.unDraw {
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.unDrawExp {
+  width: 100%;
+}
+
+.unDrawCmpt {
+  height: 90%;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.question {
+  margin-top: 3rem;
+}
+
+@media screen and (max-width: 992px) {
+  .unDrawContainer,
+  .question {
+    display: none;
+  }
+}
+
+.delete_hover {
+  transition: 0.2s all ease-in-out;
+  width: 250px;
+  cursor: pointer;
+  padding: 0 5px;
+  margin-bottom: 5px;
+}
+
+.delete_hover span {
+  display: none;
+  margin-left: 20px;
+}
+
+.delete_hover:hover {
+  color: red;
+}
+
+.delete_hover:hover span {
+  display: inline;
+}

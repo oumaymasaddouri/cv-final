@@ -1,0 +1,169 @@
+.paper-header-pro {
+  display: flex;
+}
+
+.image-holder-pro {
+  width: 150px;
+  margin: 15px;
+  margin-right: 30px;
+}
+
+.cv-img-pro {
+  width: 150px;
+  border-radius: 13px;
+  box-shadow: 4.5px 4.5px 3.6px rgba(0, 0, 0, 0.01),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.015),
+    30.1px 30.1px 24.1px rgba(0, 0, 0, 0.02),
+    100px 100px 80px rgba(0, 0, 0, 0.03);
+}
+
+.header-info-pro {
+  margin-top: 15px;
+}
+
+.header-info-pro h5 {
+  font-size: 24px;
+}
+
+.header-info-pro h6 {
+  font-size: 20px;
+}
+
+.header-info-pro p {
+  font-size: 14px;
+  width: 80%;
+}
+
+.header-contact-pro {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px 0;
+  background-color: #dee2e69f;
+}
+
+.header-contact-pro h6 {
+  margin-top: 5px;
+  font-size: 16px;
+}
+
+.paper-body-pro {
+  margin-top: 15px;
+  display: flex;
+}
+
+.section-pro {
+  width: 60%;
+  margin: 0 10px;
+}
+
+.item {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+.title-pro {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.title-icon-pro {
+  background-color: #212529;
+  color: white;
+  padding-top: 2px;
+  width: 27px;
+  height: 25px;
+  border-radius: 5px;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.text-pro {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.diplome {
+  display: flex;
+}
+
+.deco {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: inherit;
+  margin-right: 22px;
+  margin-top: 10px;
+}
+.section-pro-sm {
+  width: 35%;
+}
+
+.circle {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 3px solid #212529;
+}
+.line {
+  height: 80%;
+  width: 2px;
+  background-color: #212529;
+}
+
+.skills {
+  margin-left: 20px;
+}
+
+.skill {
+  text-transform: capitalize;
+  padding: 3px 8px;
+  font-size: 18px;
+  background-color: #a2a5a8;
+  margin: 5px;
+  border-radius: 7px;
+  color: white;
+}
+
+.tongue {
+  text-transform: capitalize;
+  margin-left: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .paper-header-pro {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-info-pro p {
+    width: 100%;
+  }
+  .image-holder-pro {
+    width: 100%;
+  }
+  .header-contact-pro h6 {
+    font-size: 12px;
+  }
+  .header-contact-pro {
+    text-align: center;
+    flex-direction: column;
+  }
+  .paper-body-pro {
+    flex-direction: column;
+  }
+  .section-pro {
+    width: 100%;
+  }
+  .section-pro-sm {
+    width: 100%;
+  }
+
+  .text-pro {
+    width: 95%;
+  }
+  .CMT {
+    width: 80%;
+    overflow: hidden;
+  }
+}

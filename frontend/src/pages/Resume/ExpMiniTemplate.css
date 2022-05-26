@@ -1,0 +1,50 @@
+.exp_date {
+  margin-right: 10px;
+}
+.exp_date h6 {
+  font-size: 14px;
+}
+
+.exp_title {
+  margin-bottom: 20px;
+}
+
+.exp_body {
+  width: 400px;
+}
+
+.expCont {
+  height: 100%;
+  margin-bottom: 50px;
+  border-left: 1px solid black;
+}
+
+.experience {
+  width: 500px;
+  border-radius: 13px;
+  margin-top: 30px;
+  margin-left: 30px;
+  border: 1px solid #198754;
+  box-shadow: #198754 0px 0px 0px 1px;
+  padding: 10px 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .expCont {
+    border-left: none;
+    padding-top: 2rem;
+  }
+  .expCont h2 {
+    font-size: 20px;
+  }
+  .experience {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .experience h6 {
+    font-size: 14px;
+  }
+  .experience h5 {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,75 @@
+.paper-header-college {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  background-color: #ced4da;
+  border-radius: 13px;
+}
+
+.header-info-college {
+  width: 40%;
+}
+
+.header-info-college h5 {
+  font-size: 20px;
+}
+
+.header-info-college h6 {
+  font-size: 18px;
+}
+
+.cv-img-college {
+  width: 150px;
+  border-radius: 50%;
+  border: 4px solid #212529;
+  margin: 0;
+  padding: 0;
+}
+
+.header-contact-college h6 {
+  font-size: 14px;
+}
+
+.title-icon-college {
+  background-color: #212529;
+  color: white;
+  padding-top: 2px;
+  width: 27px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+
+.colored {
+  width: 36%;
+  background-color: #ced4da;
+  margin-bottom: 20px;
+
+  border-radius: 13px;
+}
+
+.skill-college {
+  background-color: #212529;
+  color: white;
+  margin: 3px;
+  text-transform: capitalize;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .colored {
+    width: 95%;
+    margin-left: 10px;
+  }
+  .paper-header-college {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-info-college {
+    width: 100%;
+  }
+}
